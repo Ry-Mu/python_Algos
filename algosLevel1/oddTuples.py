@@ -26,6 +26,7 @@ def oddTuples(aTup):
     #  the result
     while index < len(aTup):
         rTup += (aTup[index],)
+        print(aTup[index],)
         index += 2
 
     return rTup
